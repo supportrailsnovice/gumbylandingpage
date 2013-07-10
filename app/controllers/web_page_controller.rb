@@ -1,7 +1,14 @@
 class WebPageController < ApplicationController
   def home
-  end  
+  end 
+
   def home1
+  end 
+
+  def home2
+  end 
+   
+  def home3
   end
 
   def about_us

@@ -8,8 +8,8 @@ Layoutgumby::Application.routes.draw do
   # get "web_page/privacy_policy"
   get '/home' => 'web_page#home', as: 'home'
   get '/home1' => 'web_page#home1', as: 'home1'
-  get '/home2' => 'web_page#home1', as: 'home2'
-  get '/home3' => 'web_page#home1', as: 'home3'
+  get '/home2' => 'web_page#home2', as: 'home2'
+  get '/home3' => 'web_page#home3', as: 'home3'
   get '/about_us' => 'web_page#about_us', as: 'about_us'
   get '/contact' => 'web_page#contact', as: 'contact'
   get '/product' => 'web_page#product', as: 'product'
