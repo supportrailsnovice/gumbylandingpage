@@ -12,6 +12,12 @@ class WebPageController < ApplicationController
   end
 
   def about_us
+  end  
+  def about_us1
+  end  
+  def about_us2
+  end  
+  def about_us3
   end
 
   def contact
